@@ -83,6 +83,11 @@ class _MyHomePageState extends State<MyHomePage> {
             tooltip: 'Increment',
             onPressed: _incrementCounter,
           ),
+          IconButton(
+            icon: const Icon(Icons.remove),
+            tooltip: 'Decrement',
+            onPressed: _incrementCounter,
+          ),
         ],
         // TRY THIS: Try changing the color here to a specific color (to
         // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
